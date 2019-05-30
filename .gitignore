@@ -1,3 +1,5 @@
 gerbers
 png
 *kicad_pcb-bak
+*.bak
+*.zip
