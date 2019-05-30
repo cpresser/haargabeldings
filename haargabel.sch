@@ -17,8 +17,8 @@ $EndDescr
 $Sheet
 S 8750 2400 600  500 
 U 5C9BE103
-F0 "led8_1" 50
-F1 "leds-8.sch" 50
+F0 "led10_1" 50
+F1 "leds-10.sch" 50
 F2 "SDI" I L 8750 2500 50 
 F3 "CKI" I L 8750 2600 50 
 F4 "SDO" O R 9350 2500 50 
@@ -27,8 +27,8 @@ $EndSheet
 $Sheet
 S 9600 2400 600  500 
 U 5C9BDF32
-F0 "led8_2" 50
-F1 "leds-8.sch" 50
+F0 "led10_2" 50
+F1 "leds-10.sch" 50
 F2 "SDI" I L 9600 2500 50 
 F3 "CKI" I L 9600 2600 50 
 F4 "SDO" O R 10200 2500 50 
@@ -37,8 +37,8 @@ $EndSheet
 $Sheet
 S 10450 2400 550  500 
 U 5C9BE4CD
-F0 "led8_3" 50
-F1 "leds-8.sch" 50
+F0 "led10_3" 50
+F1 "leds-10.sch" 50
 F2 "SDI" I L 10450 2500 50 
 F3 "CKI" I L 10450 2600 50 
 F4 "SDO" O R 11000 2500 50 
@@ -1284,39 +1284,6 @@ F 3 "~" H 5150 7000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 5150 7000
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5CC63140
-P 650 600
-F 0 "H1" H 750 646 50  0000 L CNN
-F 1 "MountingHole" H 750 555 50  0000 L CNN
-F 2 "MountingHole:Mousebite_0.4_0.6" H 650 600 50  0001 C CNN
-F 3 "~" H 650 600 50  0001 C CNN
-	1    650  600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5CC633E9
-P 650 800
-F 0 "H2" H 750 846 50  0000 L CNN
-F 1 "MountingHole" H 750 755 50  0000 L CNN
-F 2 "MountingHole:Mousebite_0.4_0.6" H 650 800 50  0001 C CNN
-F 3 "~" H 650 800 50  0001 C CNN
-	1    650  800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5CC63447
-P 650 1000
-F 0 "H3" H 750 1046 50  0000 L CNN
-F 1 "MountingHole" H 750 955 50  0000 L CNN
-F 2 "MountingHole:Mousebite_0.4_0.6" H 650 1000 50  0001 C CNN
-F 3 "~" H 650 1000 50  0001 C CNN
-	1    650  1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R9
 U 1 1 5CD34D09
